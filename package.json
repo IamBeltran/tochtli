@@ -2,23 +2,57 @@
   "name": "tochtli",
   "version": "0.1.0",
   "description": "configuration, information and file manager for applications or modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "cross-env NODE_ENV=test jest"
+  "keywords": [
+    "configuration",
+    "storage",
+    "store",
+    "json",
+    "schema",
+    "javascript",
+    "settings",
+    "validation"
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "homepage": "https://github.com/IamBeltran/tochtli#readme",
+  "bugs": {
+    "url": "https://github.com/IamBeltran/tochtli/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IamBeltran/tochtli.git"
   },
-  "keywords": [
-    "rr",
-    "dd",
-    "ff"
-  ],
-  "author": "Victor Giovanni Beltrán Rodríguez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IamBeltran/tochtli/issues"
+  "author": {
+    "name": "Victor Giovanni Beltrán Rodríguez",
+    "email": "beltran-victor@outlook.com",
+    "url": "https://vgbr-dev.blogspot.com"
   },
-  "homepage": "https://github.com/IamBeltran/tochtli#readme"
+  "contributors": [
+    {
+      "name": "Victor Giovanni Beltrán Rodriguez",
+      "email": "beltran-victor@outlook.com",
+      "url": "https://vgbr-dev.blogspot.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest",
+    "lint": "npx eslint",
+    "prepare": "husky install",
+    "build": "npx rimraf dist && webpack",
+    "prepublish": "npm test && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ]
 }
