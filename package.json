@@ -1,0 +1,24 @@
+{
+  "name": "tochtli",
+  "version": "0.1.0",
+  "description": "configuration, information and file manager for applications or modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamBeltran/tochtli.git"
+  },
+  "keywords": [
+    "rr",
+    "dd",
+    "ff"
+  ],
+  "author": "Victor Giovanni Beltrán Rodríguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IamBeltran/tochtli/issues"
+  },
+  "homepage": "https://github.com/IamBeltran/tochtli#readme"
+}
