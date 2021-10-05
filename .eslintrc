@@ -27,12 +27,10 @@
     "jsdoc/check-alignment": 1,
     "jsdoc/check-examples": 1,
     "jsdoc/check-indentation": 1,
-    "jsdoc/check-line-alignment": [
-      "error",
-      "always", {
-        "tags":["typedef", "property"],
-        "customSpacings": "postDelimiter"
-        }],
+    "jsdoc/check-line-alignment": ["error", "always", {
+      "tags":["typedef", "property"],
+      "customSpacings": "postDelimiter"
+    }],
     "jsdoc/check-param-names": 1,
     "jsdoc/check-property-names": 1,
     "jsdoc/check-syntax": 1,
@@ -73,7 +71,9 @@
     // Prettier
     "prettier/prettier": "error",
     // General
-    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "no-console": ["error", {
+      "allow": ["warn", "error"]
+    }],
     "import/no-dynamic-require": 0
   }
 }
