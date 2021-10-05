@@ -29,7 +29,7 @@
     "gulpfile.js": true,
     "jest.config.*": true,
     "jsdoc.config.*": true,
-    // "LICENSE": true,
+    "LICENSE": true,
     "nodemon.json": true,
     "package-lock.json": true,
     "yarn.lock": true,
