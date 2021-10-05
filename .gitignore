@@ -1,5 +1,4 @@
 # ━━  GENERAL ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 # Logs
 logs
 *.log
@@ -54,9 +53,6 @@ web_modules/
 
 # TypeScript cache
 *.tsbuildinfo
-
-/.pnp
-.pnp.js
 
 # TypeScript v1 declaration files
 typings/
@@ -154,11 +150,15 @@ dist
 # Mac OS X Files
 .DS_Store
 
+# Misc
+/.pnp
+.pnp.js
+
 # ━━  WORKSPACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-# Matches directory <root>/notes/
+# Notes
 /notes/
 
-# Matches directory <root>/development/
+# Development
 /development/
 
 # Matches the files name <root>/develop.js
